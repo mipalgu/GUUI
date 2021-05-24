@@ -69,6 +69,10 @@ public class ConstRef<T>: ObservableObject, Identifiable {
     
     fileprivate var get: () -> T
     
+    public var asReadOnlyBinding: Binding<T> {
+        return Binding(get: { self.value }, set: { _ in })
+    }
+    
     public var value: T {
         self.get()
     }
