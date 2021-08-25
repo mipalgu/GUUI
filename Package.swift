@@ -3,6 +3,9 @@
 
 import PackageDescription
 
+let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.5.1")]
+let products: [Target.Dependency] = [.product(name: "TokamakShim", package: "Tokamak")]
+
 let package = Package(
     name: "GUUI",
     platforms: [.macOS(.v11)],
@@ -12,7 +15,7 @@ let package = Package(
             name: "GUUI",
             targets: ["GUUI"]),
     ],
-    dependencies: [
+    dependencies: ui + [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
@@ -21,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GUUI",
-            dependencies: []),
+            dependencies: products + []),
         .testTarget(
             name: "GUUITests",
             dependencies: ["GUUI"]),
