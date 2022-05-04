@@ -1,14 +1,14 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.5
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
-let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.10.0")]
+let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.9.1")]
 let products: [Target.Dependency] = [.product(name: "TokamakShim", package: "Tokamak")]
 
 let package = Package(
     name: "GUUI",
-    platforms: [.macOS(.v12)],
+    platforms: [.macOS(.v11), .iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -24,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GUUI",
-            dependencies: products + []),
+            dependencies: products),
         .testTarget(
             name: "GUUITests",
             dependencies: ["GUUI"]),
