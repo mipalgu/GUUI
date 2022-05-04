@@ -59,6 +59,7 @@
 #if !canImport(SwiftUI)
 
 import TokamakShim
+import Foundation
 
 public extension View {
 
@@ -66,9 +67,9 @@ public extension View {
 
 }
 
-public extension View where Self: DynamicViewContent {
+public extension View {
 
-    func onMove(perform _: Optional<(IndexSet, Int) -> Void>) -> some DynamicViewContent {
+    func onMove(perform _: Optional<(IndexSet, Int) -> Void>) -> Self {
         self
     }
 
