@@ -1,9 +1,9 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
-let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.5.1")]
+let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.10.0")]
 let products: [Target.Dependency] = [.product(name: "TokamakShim", package: "Tokamak")]
 
 let package = Package(
