@@ -68,7 +68,7 @@ public extension RangeReplaceableCollection where Self: MutableCollection {
         let sorted = offsets.sorted(by: <)
         for i in sorted {
             #if os(Linux)
-            guard let i = i as? Self.index else {
+            guard let i = i as? Self.Index else {
                 fatalError()
             }
             #endif
