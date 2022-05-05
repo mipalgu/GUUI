@@ -1,0 +1,362 @@
+{
+  "warnings": [
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Compatability/RangeReplaceableCollection.swift",
+      "line": 67,
+      "symbol": "RangeReplaceableCollection.remove(atOffsets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Compatability/View.swift",
+      "line": 66,
+      "symbol": "View.focusable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Compatability/View.swift",
+      "line": 72,
+      "symbol": "View.onMove(perform:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 11,
+      "symbol": "+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 16,
+      "symbol": "-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 21,
+      "symbol": "*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 26,
+      "symbol": "/(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 30,
+      "symbol": "/(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 35,
+      "symbol": "<(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 40,
+      "symbol": "||(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 45,
+      "symbol": "||<(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 49,
+      "symbol": "normalise(degrees:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 54,
+      "symbol": "normalise(radians:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 58,
+      "symbol": "rad2deg(radians:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 62,
+      "symbol": "deg2rad(degrees:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 66,
+      "symbol": "width(point0:point1:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 70,
+      "symbol": "height(point0:point1:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGMath.swift",
+      "line": 74,
+      "symbol": "center(point0:point1:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/CGRect.swift",
+      "line": 63,
+      "symbol": "CGRect.init(corner:oppositeCorner:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/IDCache.swift",
+      "line": 61,
+      "symbol": "IDCache",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/IDCache.swift",
+      "line": 63,
+      "symbol": "IDCache.limit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/IDCache.swift",
+      "line": 65,
+      "symbol": "IDCache.ids",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/IDCache.swift",
+      "line": 67,
+      "symbol": "IDCache.init(limit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/IDCache.swift",
+      "line": 73,
+      "symbol": "IDCache.id(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 64,
+      "symbol": "ConstRef",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 66,
+      "symbol": "ConstRef.get",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 68,
+      "symbol": "ConstRef.asReadOnlyBinding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 72,
+      "symbol": "ConstRef.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 76,
+      "symbol": "ConstRef.init(copying:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 80,
+      "symbol": "ConstRef.init(get:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 84,
+      "symbol": "ConstRef.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 94,
+      "symbol": "ConstRef",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 102,
+      "symbol": "ConstRef",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 110,
+      "symbol": "Ref",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 119,
+      "symbol": "ConstRef",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 127,
+      "symbol": "ConstRef",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 129,
+      "symbol": "ConstRef.constRefArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 136,
+      "symbol": "Ref",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 138,
+      "symbol": "Ref.set",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 140,
+      "symbol": "Ref.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 149,
+      "symbol": "Ref.asBinding",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 153,
+      "symbol": "Ref.init(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 157,
+      "symbol": "Ref.init(copying:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 162,
+      "symbol": "Ref.init(get:set:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 167,
+      "symbol": "Ref.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 188,
+      "symbol": "Ref",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Ref.swift",
+      "line": 190,
+      "symbol": "Ref.refArray",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Row.swift",
+      "line": 61,
+      "symbol": "Row",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Row.swift",
+      "line": 65,
+      "symbol": "Row.index",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Row.swift",
+      "line": 67,
+      "symbol": "Row.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/home/runner/work/GUUI/GUUI/Sources/GUUI/Util/Row.swift",
+      "line": 69,
+      "symbol": "Row.init(id:index:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/home/runner/work/GUUI/GUUI"
+}
