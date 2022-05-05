@@ -60,6 +60,7 @@
 #if !canImport(SwiftUI)
 
 import TokamakShim
+import Foundation
 
 public extension RangeReplaceableCollection where Self: MutableCollection {
 
