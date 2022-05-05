@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: fwal/setup-swift@v1
         with:
-            swift-version: "5.6"
+            swift-version: "5.5"
 
       - name: Setup SSH Key
         run: | 
@@ -27,6 +27,9 @@ jobs:
             chmod 0600 ~/.ssh/id_ed25519
             eval "$(ssh-agent -s)"
             ssh-add ~/.ssh/id_ed25519
+
+      - name: Install GTK
+        run: sudo apt-get install libgtk+-3.0 gtk+-3.0
 
       - name: Checkout repo
         uses: actions/checkout@v2
