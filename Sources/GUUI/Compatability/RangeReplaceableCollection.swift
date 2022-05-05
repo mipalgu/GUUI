@@ -67,6 +67,11 @@ public extension RangeReplaceableCollection where Self: MutableCollection {
     mutating func remove(atOffsets offsets: IndexSet) {
         let sorted = offsets.sorted(by: <)
         for i in sorted {
+            #if os(Linux)
+            guard let i = i as? Self.index else {
+                fatalError()
+            }
+            #endif
             self.remove(at: i)
         }
     }
