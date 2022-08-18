@@ -115,7 +115,10 @@ final class RefTests: XCTestCase {
     func testArray() {
         let ps = [Point(x: 1, y: 2), Point(x: 3, y: 4)]
         let refArray = Ref(copying: ps).refArray
-        XCTAssertEqual(refArray.count, ps.count)
+        guard refArray.count == ps.count else {
+            XCTFail("Array lengths are not the same")
+            return
+        }
         refArray.indices.forEach {
             XCTAssertEqual(refArray[$0].value, ps[$0])
         }
