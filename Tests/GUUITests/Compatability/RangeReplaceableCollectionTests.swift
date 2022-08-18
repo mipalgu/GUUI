@@ -57,6 +57,8 @@
 @testable import GUUI
 import XCTest
 
+#if !canImport(SwiftUI)
+
 /// Test class for RangeReplaceableCollection.
 final class RangeReplaceableCollectionTests: XCTestCase {
 
@@ -68,3 +70,5 @@ final class RangeReplaceableCollectionTests: XCTestCase {
     }
 
 }
+
+#endif

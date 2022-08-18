@@ -57,6 +57,8 @@
 @testable import GUUI
 import XCTest
 
+#if !canImport(SwiftUI)
+
 /// Test class for View.
 final class ViewTests: XCTestCase {
 
@@ -87,3 +89,5 @@ final class ViewTests: XCTestCase {
     }
 
 }
+
+#endif
