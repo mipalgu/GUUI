@@ -58,18 +58,25 @@
 
 #if !canImport(SwiftUI)
 
-import TokamakShim
 import Foundation
+import TokamakShim
 
+/// Provide focusable method.
 public extension View {
 
+    /// Returns self as the current focus.
+    /// - Returns: self.
     func focusable() -> Self { self }
 
 }
 
+/// Default onMove extension.
 public extension View {
 
-    func onMove(perform _: Optional<(IndexSet, Int) -> Void>) -> Self {
+    /// Dummy onMove implementation.
+    /// - Parameter _: The function to execute during the move.
+    /// - Returns: The new view.
+    func onMove(perform _: ((IndexSet, Int) -> Void)?) -> Self {
         self
     }
 
