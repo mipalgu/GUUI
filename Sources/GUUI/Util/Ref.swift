@@ -145,7 +145,7 @@ extension Ref: Decodable where T: Decodable {
 /// Encodable conformance for ConstRef.
 extension ConstRef: Encodable where T: Encodable {
 
-    /// Initialise the ConstRef from an encoder.
+    /// Encode ConstRef into an encoder.
     /// - Parameter encoder: The encoder to use.
     public func encode(to encoder: Encoder) throws {
         try self.value.encode(to: encoder)
