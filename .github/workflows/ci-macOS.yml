@@ -28,5 +28,5 @@ jobs:
       #  run: sed -i 's/git@github.com:/https:\/\/${{ secrets.ACCESS_TOKEN }}@github.com\//g' Package.swift
 
       - name: Run tests
-        run: swift build
+        run: swift test 
 
