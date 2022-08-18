@@ -58,18 +58,26 @@
 
 import Foundation
 
+/// Cache for storing id's of objects.
 public struct IDCache<T: Hashable> {
-    
+
+    /// The size of the cache.
     private let limit: Int
-    
+
+    /// The cache stored as a dictionary.
     private var ids: [T: UUID]
-    
+
+    /// Create an empty cache with a static size.
+    /// - Parameter limit: The size of the cache.
     public init(limit: Int = 512) {
         self.limit = limit
         self.ids = [:]
         self.ids.reserveCapacity(limit)
     }
-    
+
+    /// Find the id of the object.
+    /// - Parameter row: The object containing the id.
+    /// - Returns: The id of the object.
     public mutating func id(for row: T) -> UUID {
         if let id = ids[row] {
             return id
@@ -81,5 +89,5 @@ public struct IDCache<T: Hashable> {
         ids[row] = newId
         return newId
     }
-    
+
 }

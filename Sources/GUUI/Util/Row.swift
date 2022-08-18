@@ -58,18 +58,31 @@
 
 import Foundation
 
+// swiftlint:disable type_name
+
+/// A Row struct with an id, index, and data.
 public struct Row<RowData: Hashable>: Hashable, Identifiable {
-    
+
+// swiftlint:enable type_name
+
+    /// The id of the row.
     public var id: UUID
-    
+
+    /// The index of the row.
     public var index: Int
-    
+
+    /// The data in the row.
     public var data: RowData
-    
+
+    /// Initialise the row with data.
+    /// - Parameters:
+    ///   - id: The id of the row.
+    ///   - index: The index of the row.
+    ///   - data: The data in the row.
     public init(id: UUID, index: Int, data: RowData) {
         self.id = id
         self.index = index
         self.data = data
     }
-    
+
 }

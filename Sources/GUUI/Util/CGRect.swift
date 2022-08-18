@@ -58,8 +58,13 @@
 
 import Foundation
 
+/// Add init from CGPoints.
 public extension CGRect {
-    
+
+    /// Create a CGRect from two opposite corners of a rectangle.
+    /// - Parameters:
+    ///   - corner: One corner.
+    ///   - oppositeCorner: The opposite corner (eg. bottom-left -> top-right).
     init(corner: CGPoint, oppositeCorner: CGPoint) {
         let left: CGFloat
         let right: CGFloat
@@ -83,5 +88,5 @@ public extension CGRect {
         let height = bottom - top
         self.init(origin: CGPoint(x: left, y: top), size: CGSize(width: width, height: height))
     }
-    
+
 }
