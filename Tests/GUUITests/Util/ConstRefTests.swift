@@ -57,42 +57,52 @@
 @testable import GUUI
 import XCTest
 
+/// Test class for ConstRef.
 final class ConstRefTests: XCTestCase {
 
+    /// The point to use as the ConstRef value.
     var point = Point(x: 3, y: 4)
 
+    /// A ConstRef copying point.
     var ref: ConstRef<Point> {
         ConstRef(copying: point)
     }
 
+    /// Initialise the point before every test.
     override func setUp() {
         point = Point(x: 3, y: 4)
     }
 
+    /// Test copy init.
     func testCopyInit() {
         XCTAssertEqual(ref.value, point)
     }
 
+    /// Test getter function init.
     func testGetInit() {
         let get: () -> Point = { self.point }
         let ref = ConstRef(get: get)
         XCTAssertEqual(ref.value, point)
     }
 
+    /// Test asReadOnlyBinding computed property.
     func testBinding() {
         let binding = ref.asReadOnlyBinding
         XCTAssertEqual(binding.wrappedValue, point)
     }
 
+    /// Test dynamicMember subscript.
     func testKeypath() {
         XCTAssertEqual(ref[dynamicMember: \.x].value, point.x)
     }
 
+    /// Test equality conformance.
     func testEquality() {
         let newRef = ConstRef(copying: point)
         XCTAssertEqual(ref, newRef)
     }
 
+    /// Test constRefArray extension computed property.
     func testArray() {
         let pointArray = [Point(x: 1, y: 2), Point(x: 3, y: 4)]
         let refArray = ConstRef(copying: pointArray).constRefArray
