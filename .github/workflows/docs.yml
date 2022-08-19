@@ -7,7 +7,7 @@ on:
 jobs:
 
   exec-docs:
-    runs-on: macOS-12 
+    runs-on: ubuntu-20.04 
 
     steps:
       - uses: swift-actions/setup-swift@v1
