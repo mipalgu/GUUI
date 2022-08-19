@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let ui: [Package.Dependency] = [.package(name: "Tokamak", url: "https://github.com/TokamakUI/Tokamak", from: "0.9.1")]
+let ui: [Package.Dependency] = [.package(url: "https://github.com/TokamakUI/Tokamak", from: "0.9.1")]
 let products: [Target.Dependency] = [.product(name: "TokamakShim", package: "Tokamak")]
 
 let package = Package(
