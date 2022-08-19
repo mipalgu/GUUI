@@ -59,7 +59,7 @@ import TokamakShim
 #if !canImport(SwiftUI)
 
 /// Provides systemName initialiser for non-SwiftUI compliant systems.
-extension Image {
+public extension Image {
 
     /// Use the system icons for this image.
     /// - Parameter systemName: The name of the system icon.
