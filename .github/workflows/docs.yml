@@ -7,7 +7,7 @@ on:
 jobs:
 
   exec-docs:
-    runs-on: macOS-20 
+    runs-on: macOS-12 
 
     steps:
       - uses: swift-actions/setup-swift@v1
