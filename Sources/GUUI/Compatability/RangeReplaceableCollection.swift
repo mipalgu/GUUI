@@ -59,17 +59,20 @@
 
 #if !canImport(SwiftUI)
 
-import TokamakShim
 import Foundation
+import TokamakShim
 
+/// Provides remove function for RangereplaceableCollection.
 public extension RangeReplaceableCollection where Self: MutableCollection {
 
+    /// Remove elements in an IndexSet.
+    /// - Parameter offsets: The indexes to remove.
     mutating func remove(atOffsets offsets: IndexSet) {
-        let sorted = offsets.sorted(by: <)
+        let sorted = offsets.sorted(by: >)
         for i in sorted {
             #if os(Linux)
             guard let i = i as? Self.Index else {
-                fatalError()
+                fatalError("Error in remove function.")
             }
             #endif
             self.remove(at: i)

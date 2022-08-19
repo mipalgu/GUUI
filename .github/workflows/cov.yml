@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: fwal/setup-swift@v1
         with:
-            swift-version: "5.5"
+            swift-version: "5.6"
 
       - name: Setup SSH Key
         run: | 
@@ -41,7 +41,7 @@ jobs:
         run: swift test --enable-code-coverage
 
       - name: Coverage Test
-        uses: mattpolzin/swift-codecov-action@0.6.1
+        uses: mattpolzin/swift-codecov-action@0.7.3
         id: cov
         with:
           MINIMUM_COVERAGE: 80
