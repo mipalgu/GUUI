@@ -63,7 +63,7 @@ import Foundation
 import TokamakShim
 
 /// Provides remove function for RangereplaceableCollection.
-public extension RangeReplaceableCollection where Self: MutableCollection {
+public extension RangeReplaceableCollection where Self: MutableCollection, Self.Index == Int {
 
     /// Remove elements in an IndexSet.
     /// - Parameter offsets: The indexes to remove.
