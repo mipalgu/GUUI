@@ -12,7 +12,7 @@ public extension View {
         self
     }
 
-    func keyboardShortcut(_: KeyEquivalent, modifiers _: EventModifiers) -> some View {
+    func keyboardShortcut(_: KeyEquivalent, modifiers _: EventModifiers = .command) -> some View {
         self
     }
 
