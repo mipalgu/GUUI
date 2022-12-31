@@ -56,4 +56,6 @@
  *
  */
 
+#if canImport(TokamakShim)
 @_exported import TokamakShim
+#endif

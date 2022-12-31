@@ -3,8 +3,16 @@
 
 import PackageDescription
 
-let ui: [Package.Dependency] = [.package(url: "https://github.com/TokamakUI/Tokamak", from: "0.9.1")]
+#if arch(wasm32)
+let ui: [Package.Dependency] = [.package(url: "https://github.com/TokamakUI/Tokamak", from: "0.10.0")]
 let products: [Target.Dependency] = [.product(name: "TokamakShim", package: "Tokamak")]
+#elseif os(macOS) || os(Linux)
+let ui: [Package.Dependency] = []
+let products: [Target.Dependency] = []
+#else
+let ui: [Package.Dependency] = []
+let products: [Target.Dependency] = []
+#endif
 
 let package = Package(
     name: "GUUI",

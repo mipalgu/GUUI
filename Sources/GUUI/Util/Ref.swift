@@ -56,8 +56,11 @@
  *
  */
 
+#if canImport(SwiftUI)
+import SwiftUI
+#else
 import TokamakShim
-
+#endif
 // import Attributes
 
 /// Create a reference type for an underlying value type.

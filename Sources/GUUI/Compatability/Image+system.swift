@@ -52,11 +52,11 @@
 // along with this program; if not, see http://www.gnu.org/licenses/
 // or write to the Free Software Foundation, Inc., 51 Franklin Street,
 // Fifth Floor, Boston, MA  02110-1301, USA.
-// 
-
-import TokamakShim
+//
 
 #if !canImport(SwiftUI)
+
+import TokamakShim
 
 /// Provides systemName initialiser for non-SwiftUI compliant systems.
 public extension Image {
